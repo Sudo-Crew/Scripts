@@ -27,15 +27,14 @@ The script performs the following actions:
 Save the attached script as delete_temp_files.ps1
 
 - **Step 3:** Execute the Script
-- - 1.Open PowerShell.
-- - 2.Navigate to the directory where the script is saved. 
-     cd C:\path\to\your\file
-- - 3.Run the script using the following command:
-
-     - .\delete_temp_files.ps1
-
--Alternatively, you can bypass the execution policy temporarily with:
-     powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\delete_temp_files.ps1"
+- 1.Open PowerShell.
+- 2.Navigate to the directory where the script is saved.
+-     cd C:\path\to\your\file
+- 3.Run the script using the following command:
+-     .\delete_temp_files.ps1
+-
+- `Alternatively`, you can bypass the execution policy temporarily with:
+-     powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\delete_temp_files.ps1"
 
 
 **Notes**
