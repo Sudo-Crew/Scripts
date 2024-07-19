@@ -41,7 +41,6 @@ Save the attached script as `delete_temp_files.ps1`
     powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\delete_temp_files.ps1"
 ##
 
-**Notes**
-  
-- 1.Ensure you have the necessary permissions to delete files in the Temp folder.
-- 2.Use with caution as this script will permanent
+> [!NOTE]
+> + 1.Ensure you have the necessary permissions to delete files in the Temp folder.
+> + 2.Use with caution as this script will permanent
