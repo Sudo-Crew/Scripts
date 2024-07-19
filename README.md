@@ -1,5 +1,5 @@
-**Delete Temp Files PowerShell Script
-**
+**Delete Temp Files PowerShell Script**
+
 **Description**
 
 This PowerShell script is designed to open the Windows Temp folder and delete all temporary files and directories within it. It ensures that all items are deleted forcefully, including those that may otherwise be protected or difficult to remove.
@@ -15,8 +15,8 @@ The script performs the following actions:
 
 - PowerShell Execution Policy: The script requires the execution policy to be set to `RemoteSigned` or `Unrestricted`. This can be configured temporarily or permanently based on your preference.
 
-**How to Run
-**
+**How to Run**
+
 **Step 1:** Set Execution Policy (if not already set)
 
 Open PowerShell as an administrator and run:
