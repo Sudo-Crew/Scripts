@@ -20,22 +20,28 @@ The script performs the following actions:
 - **Step 1:** Set Execution Policy (if not already set)
 
 - Open PowerShell as an administrator and run:
--     Set-ExecutionPolicy RemoteSigned
-
+##
+    Set-ExecutionPolicy RemoteSigned
+##
 - **Step 2:** Save the Script
 Save the attached script as `delete_temp_files.ps1`
 
-- **Step 3:** Execute the Script
-- 1.Open PowerShell.
-- 2.Navigate to the directory where the script is saved.
--     cd C:\path\to\your\file
-- 3.Run the script using the following command:
--     .\delete_temp_files.ps1
-
+- **Step 3:** - Execute the Script
+  - + 1.Open PowerShell.
+  - + 2.Navigate to the directory where the script is saved.
+##
+    cd C:\path\to\your\file
+##
+  - + 3.Run the script using the following command:
+##
+    .\delete_temp_files.ps1
+##
 - `Alternatively`, you can bypass the execution policy temporarily with:
--     powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\delete_temp_files.ps1"
-
+##          
+    powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\delete_temp_files.ps1"
+##
 
 **Notes**
+  
 - 1.Ensure you have the necessary permissions to delete files in the Temp folder.
 - 2.Use with caution as this script will permanent
