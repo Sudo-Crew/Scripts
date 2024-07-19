@@ -18,7 +18,6 @@ function Delete-ItemForcefully {
 }
 
 $tempFolder = $env:TEMP
-
 $items = Get-ChildItem -Path $tempFolder -Recurse
 
 foreach ($item in $items) {
