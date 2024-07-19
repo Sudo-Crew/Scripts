@@ -38,5 +38,5 @@ Save the attached script as delete_temp_files.ps1
 
 
 **Notes**
-Ensure you have the necessary permissions to delete files in the Temp folder.
-Use with caution as this script will permanent
+-Ensure you have the necessary permissions to delete files in the Temp folder.
+-Use with caution as this script will permanent
