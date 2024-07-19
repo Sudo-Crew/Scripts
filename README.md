@@ -27,9 +27,10 @@ Open PowerShell as an administrator and run:
 Save the attached script as delete_temp_files.ps1
 
 **Step 3:** Execute the Script
--Open PowerShell.
--Navigate to the directory where the script is saved.
--Run the script using the following command:
+1.Open PowerShell.
+2.Navigate to the directory where the script is saved. 
+     cd C:\path\to\your\file
+3.Run the script using the following command:
 
      .\delete_temp_files.ps1
 
@@ -38,5 +39,5 @@ Save the attached script as delete_temp_files.ps1
 
 
 **Notes**
--Ensure you have the necessary permissions to delete files in the Temp folder.
--Use with caution as this script will permanent
+1.Ensure you have the necessary permissions to delete files in the Temp folder.
+2.Use with caution as this script will permanent
